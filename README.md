@@ -1,6 +1,6 @@
 # <center><font color=green size=10>PilotScope</font></center>
 
-PilotScope is an AI4DB deployment tool. The ML methods in PilotScope could apply several abstracted operators to interact with databases to fulfill their functions. We now support 15 ML methods、2 DBs and 11 push-and-pulls. And here is the source code of "PilotScope: Steering Databases with Machine Learning Drivers". You can get the PostgreSQL's source code with pilotscope patch and the Spark's source code with pilotscope patch from [PostgresSQL repo](https://github.com/duoyw/PilotScopePostgreSQL) and [Spark repo](https://github.com/duoyw/PilotScopeSpark) respectively.
+PilotScope is an AI4DB deployment tool. The ML methods in PilotScope could apply several abstracted operators to interact with databases to fulfill their functions. We now support 15 ML methods, 2 DBs and 11 push-and-pulls. And here is the source code of "PilotScope: Steering Databases with Machine Learning Drivers". You can get the PostgreSQL's source code with pilotscope patch and the Spark's source code with pilotscope patch from [PostgresSQL repo](https://github.com/duoyw/PilotScopePostgreSQL) and [Spark repo](https://github.com/duoyw/PilotScopeSpark) respectively.
 
 <!-- wait  for tutorial-->
 A detailed tutorial will be provided on : [tutorial]()
@@ -97,10 +97,14 @@ python3 -m unittest test_knob_example.py
 ```
 
 ## Extension
-As an middleware system, PilotScope can support to deploy any ML method on any native database and it can be easily extended to support a variety of AI4DB tasks 、algorithms and databases. We will support more of them in the future and build an open-source community, which will accelerate the iteration of ML methods in research community and make AI4DB truly appliable in production scenarios.
+As an middleware system, PilotScope can support to deploy any ML method on any native database and it can be easily extended to support a variety of AI4DB tasks, algorithms and databases. We will support more of them in the future and build an open-source community, which will accelerate the iteration of ML methods in research community and make AI4DB truly appliable in production scenarios.
+
 ## Documentation
 The classes and methods of PilotScope will be documented and we plan to put the documentation in this repository in the future.
 <!-- ## License
 ## Publications -->
+## License
+FederatedScope is released under Apache License 2.0.
+
 ## Contributing
 As an open-sourced project, we greatly appreciate any contribution to PilotScope! 
