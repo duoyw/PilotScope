@@ -104,7 +104,7 @@ The classes and methods of PilotScope will be documented and we plan to put the 
 <!-- ## License
 ## Publications -->
 ## License
-FederatedScope is released under Apache License 2.0.
+PilotScope is released under Apache License 2.0.
 
 ## Contributing
 As an open-sourced project, we greatly appreciate any contribution to PilotScope! 
