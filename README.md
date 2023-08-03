@@ -1,4 +1,5 @@
 # <center><font color=green size=10>PilotScope</font></center>
+![](https://img.shields.io/badge/language-python-blue.svg)  ![](https://img.shields.io/badge/license-Apache-000000.svg)
 
 PilotScope is an AI4DB deployment tool. The ML methods in PilotScope could apply several abstracted operators to interact with databases to fulfill their functions. We now support 15 ML methods, 2 DBs and 11 push-and-pulls. And here is the source code of "PilotScope: Steering Databases with Machine Learning Drivers". You can get the PostgreSQL's source code with pilotscope patch and the Spark's source code with pilotscope patch from [PostgresSQL repo](https://github.com/duoyw/PilotScopePostgreSQL) and [Spark repo](https://github.com/duoyw/PilotScopeSpark) respectively.
 
