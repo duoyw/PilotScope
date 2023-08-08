@@ -73,11 +73,11 @@ shared_preload_libraries = 'pilotscope'
 # 4. modify the configuration of PostgreSQL in pg_hba.conf
 host all all all md5
 
-# 5. install the pilotscope extension
+# 5. install the pilotscope extension(Note that $data is the path of pg_data)
 git clone https://github.com/duoyw/PilotScopePostgreSQL.git
 cd PilotScopePostgreSQL
 sh install_pilotscope.sh
-pg_ctl -D data restart
+pg_ctl -D $data restart
 ```
 
 2. Load dataset into database
